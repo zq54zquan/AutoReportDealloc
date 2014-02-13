@@ -1,7 +1,8 @@
 AutoReportDealloc<br>
+=================
 Automatically report object dealloc<br>
 Attach in you main.m file
-=================
+
 
 <pre>
 <code>
