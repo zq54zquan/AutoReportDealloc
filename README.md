@@ -2,8 +2,10 @@ AutoReportDealloc<br>
 Automatically report object dealloc<br>
 Attach in you main.m file
 =================
+
+<pre>
 <code>
-	#import <objc/runtime.h>
+#import <objc/runtime.h>
 const static char __DEALLOCKEY__;
 @interface DeallocInfo:NSObject
 @property (nonatomic, copy) NSString *msg;
@@ -41,3 +43,4 @@ const static char __DEALLOCKEY__;
 @end
 
 </code>
+</pre>
